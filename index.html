@@ -7,7 +7,25 @@
     <title>JoyCon</title>
 </head>
 <body>
-    <!-- buat komponen yang menggambarkan controller @MUTAMA -->
+    <div class="display" id="display">Press a button</div>
+    <div class="controller">
+    <div class="left">
+    <button oneclick="show('up')">up</button>
+    <div class="horizontal">
+        <button onclick="show('left')">left</button>
+        <button onclick="show('down')">down</button>
+        <button onclick="show('right')">right</button>
+        </div>
+    </div>
+    <div class="right">
+        <button onclick="show('B')">B</button>
+        <button onclick="show('A')">A</button>
+    </div>
+    </div>
+    
+  <script scr="script.js"></script>
+
+  
     <!--    [^]                -->
     <!-- [<][v][>]      [B][A] -->
     <!--           atau        -->
